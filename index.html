@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-List</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo_manager">
+            <img src="logo.png" alt="TaskMaster Logo"> <!-- Replace 'logo.png' with your logo image path -->
+            <h1>TaskMaster</h1>
+        </div>
+        <a href="#">Contact</a>
+    </div>
+    <div class="parent_catchy_line">
+        <!-- Add your catchy line and button as before -->
+        <div class="catchy-line" id="catchy-line">
+            <h2>Let's Get Organized!</h2>
+            <p>Your ultimate to-do list manager</p>
+            <button class="lets-manage-button btn-three" id="show-task-manager">Let's Manage</button>
+        </div>
+
+        <!-- New div for managing tasks (initially hidden) -->
+        <div id="task-manager" style="display: none;">
+            <!-- Add task-related elements here -->
+
+            <div id="task-bar">
+                <input type="text" id="task-input" placeholder="Enter a task">
+                <button id="add-button">Add</button>
+            </div>
+            <ul id="task-list">
+                <!-- Tasks will be added here dynamically -->
+                <span></span>
+            </ul>
+            <!-- Add your to-do list content here -->
+        </div>
+</body>
+<script src="script.js"></script>
+<script>
+
+</script>
+
+
+</html>
